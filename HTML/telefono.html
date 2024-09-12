@@ -10,6 +10,10 @@
     button.submit {
         margin-top: 20px;
     }
+
+    div.message {
+        margin-top: 20px;
+    }
 </style>
 
 <body>
@@ -17,10 +21,16 @@
         <h1>Validación de teléfono mediante a expresiones regulares:</h1>
     </header>
     <main>
-        <form action="#" method="POST">
-            <div><input id="telefono" name="email" type="tel" placeholder="Enter 9 digits of your phone" required minlength="9"
-                    maxlength="9" pattern="\d{9}"></div>
-            <div><button class="submit">Submit</button></div>
+        <form action="https://formsubmit.co/xavier.galan.perez@gmail.com" method="POST">
+            <div><input id="telefono" name="telefono" type="tel" placeholder="Enter 9 digits of your phone" required
+                    minlength="9" maxlength="9" pattern="\d{9}">
+                <div class="message">
+                    <input id="mensaje" name="mensaje" type="text" placeholder="Write a message" required>
+                </div>
+            </div>
+            <div>
+                <button class="submit">Submit</button>
+            </div>
         </form>
     </main>
     <footer>
