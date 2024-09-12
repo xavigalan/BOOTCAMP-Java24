@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        table {
+            border-collapse: collapse;
+            width: 100%;
+            font-family: 'Roboto', sans-serif;
+            font-weight: 500;
+        }
+
+        th,
+        td {
+            border: 1px solid black;
+            text-align: center;
+        }
+
+        div.tables-container {
+            display: flex;
+            justify-content: space-between;
+        }
+
+        div.inline-table {
+            width: 20%;
+        }
+
+        .t1 {
+            margin-left: 400px;
+        }
+
+        .t2 {
+            margin-right: 400px;
+        }
+    </style>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="tables-container">
+        <div class="inline-table t1">
+            <table>
+                <thead>
+                    <tr>
+                        <td colspan="3">Ejercicios de tablas 1</td>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>A</td>
+                        <td>B</td>
+                        <td>C</td>
+                    </tr>
+                    <tr>
+                        <td>1</td>
+                        <td>2</td>
+                        <td>3</td>
+                    </tr>
+                    <tr>
+                        <td>4</td>
+                        <td>4</td>
+                        <td>6</td>
+                    </tr>
+                    <tr>
+                        <td>7</td>
+                        <td>8</td>
+                        <td>9</td>
+                    </tr>
+                    <tr>
+                        <td colspan="3">Apartado A</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+        <div class="inline-table t2">
+            <table>
+                <thead>
+                    <tr>
+                        <td colspan="3">Ejercicios de tablas 2</td>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>A</td>
+                        <td>B</td>
+                        <td>C</td>
+                    </tr>
+                    <tr>
+                        <td>1</td>
+                        <td colspan="2">2</td>
+                    </tr>
+                    <tr>
+                        <td rowspan="2">4</td>
+                        <td>5</td>
+                        <td>6</td>
+                    </tr>
+                    <tr>
+                        <td>8</td>
+                        <td>9</td>
+                    </tr>
+                    <tr>
+                        <td colspan="3">Apartado B</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+</body>
+
+</html>
