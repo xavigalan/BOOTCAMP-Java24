@@ -1,0 +1,23 @@
+* {
+    background-color: bisque;
+}
+
+p {
+    column-count: 3;
+    column-gap: 40px;
+    column-rule: 2px solid red;
+}
+
+p::selection {
+    background-color: purple;
+    color: yellow;
+}
+
+h1 {
+    color: red;
+    display: inline;
+}
+
+h1:hover {
+    color: green;
+}
