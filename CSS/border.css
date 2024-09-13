@@ -1,6 +1,8 @@
-div{border-top: 5px dotted green;
-border-left: 10px double #000;
-border-bottom: 5px solid red;
-border-right: 10px blue dashed;
-padding: 60px;
-margin: 50px;}
+div {
+    border-top: 5px dotted green;
+    border-left: 10px double #000;
+    border-bottom: 5px solid red;
+    border-right: 10px blue dashed;
+    padding: 60px;
+    margin: 50px;
+}
