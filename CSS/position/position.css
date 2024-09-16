@@ -1,0 +1,39 @@
+.principal {
+    background-color: red;
+    width: 400px;
+    height: 400px;
+    margin: 50px;
+    position: relative;
+    outline: 5px solid black;
+}
+
+.box {
+    background-color: yellowgreen;
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    font-size: 25px;
+    text-align: center;
+    outline: solid black 3px;
+    border-radius: 100px;
+}
+
+.box1 {
+    top: -20px;
+    left: -20px;
+}
+
+.box2 {
+    top: -20px;
+    right: -20px;
+}
+
+.box3 {
+    bottom: -20px;
+    left: -18px;
+}
+
+.box4 {
+    bottom: -20px;
+    right: -18px;
+}

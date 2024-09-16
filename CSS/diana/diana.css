@@ -23,10 +23,8 @@
     background-color: white;
     width: 620px;
     height: 620px;
-
     top: 32px;
     left: 32px;
-
     outline-offset: -80px;
     outline: 35px solid red;
     border: 8px solid red;
@@ -39,10 +37,8 @@
     background-color: red;
     width: 400px;
     height: 400px;
-
     top: 350px;
     left: 140px;
-
     outline-offset: -80px;
     outline: 35px solid rgb(255, 255, 255);
     bottom: 500px;
