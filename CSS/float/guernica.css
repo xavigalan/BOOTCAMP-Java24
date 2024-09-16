@@ -1,0 +1,21 @@
+.principal {
+    position: relative;
+
+}
+
+.imagen {
+    float: right;
+    width: 50%;
+}
+
+.texto {
+    float: left;
+    width: 50%;
+    font-size: 30px;
+}
+
+
+img {
+    width: 750px;
+    height: 300px;
+}
