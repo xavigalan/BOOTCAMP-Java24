@@ -1,0 +1,10 @@
+.box1 {
+    background-color: red;
+    height: 100px;
+    width: 100px;
+    margin: 30px;
+    outline: 12px dotted yellowgreen;
+}
+.box1:hover {
+    outline: 6px dotted black ;
+}
