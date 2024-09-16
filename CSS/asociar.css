@@ -1,7 +1,0 @@
-input:invalid {
-    background-color: #ffcccc;
-}
-
-input:valid {
-    background-color: #ccffcc;
-}
