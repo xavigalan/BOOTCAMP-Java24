@@ -1,0 +1,253 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+@media (max-width: 320px) {
+    body {
+        background-color: rgb(163, 147, 58);
+    }
+
+    .naranjas {
+        width: 100%;
+        margin-top: 10px;
+    }
+
+    .naranja {
+        float: left;
+        background-color: orange;
+        width: 95%;
+        margin: 5px;
+        height: 20vh;
+        border: 1px solid black;
+        box-sizing: border-box;
+    }
+
+    .naranjas::after {
+        content: "";
+        display: block;
+        clear: both;
+    }
+
+    .amarillos {
+        margin-top: 10px;
+        width: 100%;
+    }
+
+    .amarillo {
+        background-color: yellow;
+        width: 96%;
+        margin: 5px;
+        height: 20vh;
+        border: 1px solid black;
+        box-sizing: border-box;
+    }
+
+    .amarillos::after {
+        content: "";
+        display: block;
+        clear: both;
+    }
+
+    .azules {
+        width: 100%;
+        margin-top: 10px;
+    }
+
+    .azul {
+        background-color: deepskyblue;
+        width: 94%;
+        margin: 10px;
+        height: 25vh;
+        border: 1px solid black;
+        box-sizing: border-box;
+    }
+
+    .azules::after {
+        content: "";
+        display: block;
+        clear: both;
+    }
+
+    .grises {
+        width: 100%;
+        margin-top: 10px;
+    }
+
+    .gris {
+        background-color: gray;
+        width: 94%;
+        margin: 3.5%;
+        height: 20vh;
+        border: 1px solid black;
+        box-sizing: border-box;
+    }
+
+    .grises::after {
+        content: "";
+        display: block;
+        clear: both;
+    }
+
+    .grises .gris:nth-of-type(n+2) {
+        display: none;
+    }
+}
+
+@media (min-width: 321px) and (max-width: 768px) {
+    body {
+        background-color: aquamarine;
+    }
+
+    .naranjas {
+        width: 100%;
+        margin-top: 10px;
+    }
+
+    .naranja {
+        background-color: orange;
+        width: 97%;
+        margin: 0.5%;   
+        height: 20vh;
+        border: 1px solid black;
+        box-sizing: border-box;
+    }
+
+    .amarillos {
+        margin-top: 10px;
+        width: 100%;
+    }
+
+    .amarillo {
+        background-color: yellow;
+        width: 97%;
+        margin: 0.5%;
+        height: 30vh;
+        border: 1px solid black;
+        box-sizing: border-box;
+    }
+
+    .azules {
+        margin-top: 10px;
+        width: 100%;
+    }
+
+    .azul {
+        background-color: deepskyblue;
+        width: 96%;
+        margin: 10px;
+        height: 20vh;
+        border: 1px solid black;
+        box-sizing: border-box;
+    }
+
+    .azules::after {
+        content: "";
+        display: block;
+        clear: both;
+    }
+
+    .grises {
+        margin-top: 10px;
+        width: 100%;
+    }
+
+    .gris {
+        float: left;
+        background-color: gray;
+        width: 48%;
+        margin: 0.5%;
+        height: 20vh;
+        border: 1px solid black;
+        box-sizing: border-box;
+    }
+
+    .grises::after {
+        content: "";
+        display: block;
+        clear: both;
+    }
+}
+
+@media (min-width: 769px) {
+    body {
+        background-color: cornflowerblue;
+    }
+
+    .naranjas {
+        margin-top: 10px;
+        width: 100%;
+    }
+
+    .naranja {
+        float: left;
+        background-color: orange;
+        width: 49%;
+        margin: 0.5%;
+        height: 20vh;
+        border: 1px solid black;
+        box-sizing: border-box;
+    }
+
+    .naranjas::after {
+        content: "";
+        display: block;
+        clear: both;
+    }
+
+    .amarillos {
+        margin-top: 10px;
+        width: 100%;
+    }
+
+    .amarillo {
+        background-color: yellow;
+        width: 99%;
+        margin: 0.4%;
+        height: 30vh;
+        border: 1px solid black;
+        box-sizing: border-box;
+    }
+
+    .azules {
+        margin-top: 10px;
+        width: 100%;
+    }
+
+    .azul {
+        float: inline-start;
+        background-color: deepskyblue;
+        width: 32%;
+        margin: 0.66%;
+        height: 20vh;
+        border: 1px solid black;
+        box-sizing: border-box;
+    }
+
+    .azules::after {
+        content: "";
+        display: block;
+        clear: both;
+    }
+
+    .grises {
+        margin-top: 10px;
+        width: 100%;
+    }
+
+    .gris {
+        float: left;
+        background-color: gray;
+        width: 24%;
+        margin: 0.5%;
+        height: 20vh;
+        border: 1px solid black;
+        box-sizing: border-box;
+    }
+
+    .grises::after {
+        content: "";
+        display: block;
+        clear: both;
+    }
+}
