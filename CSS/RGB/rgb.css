@@ -1,0 +1,79 @@
+.container {
+    display: inline;
+    justify-content: center;
+    text-align: center;
+}
+
+.grupo {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+
+.circulo {
+    border-radius: 50%;
+    border: 1px solid black;
+    width: 100px;
+    height: 100px;
+    margin: 5px;
+    mix-blend-mode: screen;
+}
+
+.mas {
+    font-size: 50px;
+}
+
+.red {
+    background-color: red;
+}
+
+.green {
+    background-color: greenyellow;
+}
+
+.blue {
+    background-color: blue;
+}
+
+.pink {
+    background-color: rgb(255, 79, 243);
+}
+
+.cian {
+    background-color: aqua;
+}
+
+.yellow {
+    background-color: yellow;
+}
+
+.rgb {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    position: relative;
+    width: 100%;
+    margin-top: 100px;
+}
+
+.reda {
+    background-color: rgba(255, 0, 0, 1);
+    top: -100px;
+    left: 300px;
+    position: absolute;
+}
+
+.greena {
+    background-color: rgba(173, 255, 47, 1);
+    position: absolute;
+    top: -100px;
+    right: 300px;
+}
+
+.bluea {
+    background-color: rgba(0, 0, 255, 1);
+    clear: both;
+    position: absolute;
+}
