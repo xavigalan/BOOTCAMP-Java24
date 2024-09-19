@@ -1,0 +1,18 @@
+body {
+    width: 100vw;
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 20% 80%;
+    grid-template-rows: 1fr;
+    font-size: 30px;
+    align-items: center;
+}
+
+.centrado {
+    text-align: center;
+}
+
+.header {
+    background-color: black;
+    color: white;
+}
