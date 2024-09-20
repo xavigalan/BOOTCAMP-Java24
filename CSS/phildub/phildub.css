@@ -1,0 +1,14 @@
+#nav-cross-shop {
+    display: flex;
+    flex-direction: row;
+}
+
+.logohire{
+    display: flex;
+    flex-direction: column;
+}
+
+.anamazcontact{
+    display: flex;
+    flex-direction: row;
+}
