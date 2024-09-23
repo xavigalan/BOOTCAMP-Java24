@@ -3,12 +3,62 @@
     flex-direction: row;
 }
 
-.logohire{
+.column {
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+}
+
+.linea {
+    display: flex;
+    flex-direction: row;
+}
+
+.logohire {
     display: flex;
     flex-direction: column;
 }
 
-.anamazcontact{
+.logo {
+    position: absolute;
+}
+
+.anamazcontact {
     display: flex;
     flex-direction: row;
+    align-items: center;
+    margin-left: 10px;
+    font-size: medium;
+}
+
+.palo {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.shortby {
+    width: 15vw;
+}
+
+.web {
+    margin-left: 8px;
+    margin-top: 10px;
+    font-weight: bold;
+    font-size: small;
+}
+
+.search {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.searchtxt {
+    font-weight: bold;
+    margin-left: 50px;
+    margin-right: 10px;
+    margin-bottom: 20px;
+}
+.header-inferior{
+    font-size: small;
 }
