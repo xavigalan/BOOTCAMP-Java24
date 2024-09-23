@@ -1,6 +1,8 @@
 #nav-cross-shop {
     display: flex;
     flex-direction: row;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+
 }
 
 .column {
@@ -11,6 +13,7 @@
 
 .linea {
     display: flex;
+    align-items: center;
     flex-direction: row;
 }
 
@@ -21,6 +24,26 @@
 
 .logo {
     position: absolute;
+}
+
+.xavis {
+    text-decoration: none;
+    color: blue;
+}
+
+.xavis:hover {
+    text-decoration: underline;
+    color: orange;
+}
+
+.contact {
+    color: brown;
+
+}
+
+.contact:hover {
+    text-decoration: none;
+    color: orange;
 }
 
 .anamazcontact {
@@ -37,7 +60,7 @@
 }
 
 .shortby {
-    width: 15vw;
+    width: 8vw;
 }
 
 .web {
@@ -59,6 +82,44 @@
     margin-right: 10px;
     margin-bottom: 20px;
 }
-.header-inferior{
+
+.header-inferior {
     font-size: small;
+}
+
+.job-candidates {
+    border: 1px solid gray;
+}
+
+.buscador {
+    border: none;
+}
+
+.go {
+    color: white;
+    font-weight: bold;
+    background-color: black;
+    padding: 10px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.company {
+    margin-left: 5px;
+    color: orange;
+}
+
+.nav-divider {
+    border-right: 1px solid #ddd;
+    position: absolute;
+    height: 34px;
+    width: 1px;
+    top: 11px;
+}
+
+.yellow {
+    background-color: rgba(255, 255, 0, 0.1);
+    padding-left: 330px;
+    margin-top: 5px;
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
 }
