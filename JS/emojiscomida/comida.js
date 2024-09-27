@@ -2,7 +2,7 @@
 console.log("Ejercicio 1")
 arr = ['🍔', '🥙', '🥧', '🍕', '🍜', '🍱', '🍙', '🍘', '🥑'];
 function replace() {
-    let pizzaIndex = arr.indexOf('🍕');
+    let pizzaIndex = arr.indexOf('🍜');
     for (let i = pizzaIndex; i < arr.length; i++) {
         arr[i] = '🍺';
     }
