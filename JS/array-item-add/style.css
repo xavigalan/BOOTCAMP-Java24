@@ -1,0 +1,35 @@
+body {
+    height: 100vh;
+    margin: 0px;
+}
+
+.accion {
+    padding: 0px;
+    margin: 0px;
+    margin-bottom: 10px;
+}
+
+.style-box {
+    display: flex;
+    text-align: justify;
+    justify-content: center;
+    flex-direction: column;
+    border: 1px solid black;
+    margin-top: 10px;
+    margin-left: 10px;
+    width: 21vw;
+    height: 6vh;
+    padding: 5px;
+}
+
+.botones {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.elementos {
+    margin-top: 0px;
+    margin-left: 10px;
+    font-size: xx-large;
+}
