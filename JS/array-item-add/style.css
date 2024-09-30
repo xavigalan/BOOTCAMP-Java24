@@ -28,7 +28,7 @@ body {
     justify-content: space-around;
 }
 
-.elementos {
+#elementos {
     margin-top: 0px;
     margin-left: 10px;
     font-size: xx-large;
