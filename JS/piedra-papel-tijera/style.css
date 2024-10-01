@@ -1,0 +1,44 @@
+.overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.7);
+    display: none;
+    /* Oculto por defecto */
+    justify-content: center;
+    align-items: center;
+}
+
+/* Estilo para el cuadro de diálogo */
+.dialog {
+    background: white;
+    padding: 20px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+/* Botones */
+.btn {
+    margin: 5px;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.btn1 {
+    background: red;
+    color: white;
+}
+
+.btn2 {
+    background: green;
+    color: white;
+}
+
+.btn3 {
+    background: blue;
+    color: white;
+}
