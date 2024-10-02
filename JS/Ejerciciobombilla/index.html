@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="column">
+        <div>
+            <img id="interruptor" class="button" src="boff.jpg" alt="">
+        </div>
+        <div class="row">
+            <div>
+                <img id="bulb" class="bulb" src="off.jpg" alt="">
+            </div>
+            <div>
+                <div class="rowtext">
+                    <p>Light Bulb Zoom:
+                        <input type="range" id="zoom" min="0" max="600" value="250" step="1">
+                    <div style="color: white;" id="zoomnum">250</div>
+                </div>
+                <div class="rowtext">
+                    <p>Light Level: </p>
+                    <input type="range" id="brillo" min="0" max="100" value="100" step="1">
+                    <div style="color: white;" id="brillonum">100</div>
+                </div>
+                <div class="rowtext">
+                    <p>Rotate Level: </p>
+                    <input type="range" id="rotate" min="0" max="360" value="0" step="1">
+                    <div style="color: white;" id="rotatenum">0</div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="./javascript/main.js"></script>
+</body>
+
+</html>
