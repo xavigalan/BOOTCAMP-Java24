@@ -1,0 +1,95 @@
+body {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    padding: 0px;
+    margin: 0px;
+    overflow: hidden;
+}
+
+.EAT {
+    background-color: rgba(176, 248, 135, 0.731);
+    width: 50vw;
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.SUPERIOR {
+    display: flex;
+    flex-direction: row;
+    font-size: 40px;
+}
+
+.LEFT {
+    justify-content: flex-start;
+}
+
+.RIGHT {
+    justify-content: flex-end;
+    align-self: flex-end;
+}
+
+.PLAY {
+    background-color: rgba(248, 246, 135, 0.731);
+    width: 50vw;
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.FIGHT {
+    background-color: rgba(248, 135, 135, 0.731);
+    width: 50vw;
+    height: 50vh;
+}
+
+.barra {
+    width: 40vw;
+    background: #040404;
+    border-radius: 10px;
+    height: 3vh;
+    margin-top: 5px;
+    display: flex;
+    align-items: center;
+}
+
+#vidacomida {
+    width: 100%;
+    background: #4bb542;
+    border-radius: 20px;
+    height: 1.5vh;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+#numcomida {
+    margin-left: 20px;
+    margin-top: 10px;
+}
+#numplay {
+    margin-right: 20px;
+    margin-top: 10px;
+}
+
+#vidacomida {
+    width: 100%;
+    background: #4bb542;
+    border-radius: 20px;
+    height: 1.5vh;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+#EATTAG {
+    margin-top: 180px;
+    margin-left: 150px;
+    font-size: xx-large;
+    color: #4bb542;
+}
+
+.SLEEP {
+    background-color: rgba(135, 201, 248, 0.731);
+    width: 50vw;
+    height: 50vh;
+}
