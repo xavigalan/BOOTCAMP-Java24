@@ -21,6 +21,13 @@ body {
     font-size: 40px;
 }
 
+.INFERIOR {
+    display: flex;
+    flex-direction: row;
+    font-size: 40px;
+    margin-top: 200px;
+}
+
 .LEFT {
     justify-content: flex-start;
 }
@@ -52,10 +59,29 @@ body {
     margin-top: 5px;
     display: flex;
     align-items: center;
+    justify-content: flex-start;
 }
 
 #vidacomida {
-    width: 100%;
+    width: 10%;
+    background: #4bb542;
+    border-radius: 20px;
+    height: 1.5vh;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+#vidaplay {
+    width: 49%;
+    background: #4bb542;
+    border-radius: 20px;
+    height: 1.5vh;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+#vidafuerza {
+    width: 0%;
     background: #4bb542;
     border-radius: 20px;
     height: 1.5vh;
@@ -67,25 +93,34 @@ body {
     margin-left: 20px;
     margin-top: 10px;
 }
+
 #numplay {
-    margin-right: 20px;
+    margin-left: 170px;
     margin-top: 10px;
 }
 
-#vidacomida {
-    width: 100%;
-    background: #4bb542;
-    border-radius: 20px;
-    height: 1.5vh;
-    margin-left: 5px;
-    margin-right: 5px;
-}
+
 
 #EATTAG {
     margin-top: 180px;
     margin-left: 150px;
     font-size: xx-large;
     color: #4bb542;
+}
+
+#PLAYTAG {
+    margin-top: 180px;
+    margin-right: 150px;
+    font-size: xx-large;
+    color: #b5b142;
+}
+
+#FIGHTTAG {
+
+    margin-top: 80px;
+    margin-left: 100px;
+    font-size: xx-large;
+    color: #b54c42;
 }
 
 .SLEEP {
