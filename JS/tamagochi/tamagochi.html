@@ -12,15 +12,14 @@
     <div style="display: flex; flex-direction: row;">
         <div class="EAT">
             <div class="SUPERIOR">
-                <div style="margin-right: 50px;">🍌</div>
+                <button style="width: 50px; margin-right: 50px; background-color: transparent; border: 0px;">🍌</button>
                 <div style="margin-right: 50px;">🍌</div>
                 <div>🍌</div>
             </div>
-            <div class="barra">
-                <div id="vidacomida"></div>
-            </div>
+            <meter id="vidacomida" min="0" max="100" low="25" optimum="100" high="50" value="49"></meter>
             <div class="rowleft">
-                <div id="numcomida">24%</div>
+                <div id="numcomida">24</div>
+                <div id="hastag">%</div>
                 <div>Full</div>
             </div>
             <div id="EATTAG">
@@ -29,15 +28,14 @@
         </div>
         <div class="PLAY">
             <div class="SUPERIOR RIGHT">
-                <div style="margin-right: 50px;">🕹</div>
+                <div style="margin-right: 50px;">🥊</div>
                 <div style="margin-right: 50px;">🏉</div>
-                <div>♟</div>
+                <div>🎮</div>
             </div>
-            <div class="barra RIGHT">
-                <div id="vidaplay"></div>
-            </div>
+            <meter id="vidaplay" class="RIGHT" min="0" max="100" low="25" optimum="100" high="50" value="49"></meter>
             <div class="rowright">
-                <div id="numplay" class="LEFT">49%</div>
+                <div id="numplay" class="LEFT">49</div>
+                <div id="hastag">%</div>
                 <div>Fun</div>
             </div>
             <div id="PLAYTAG" class="RIGHT">
@@ -51,14 +49,13 @@
                 FIGHT
             </div>
             <div class="INFERIOR">
-                <div style="margin-right: 50px;">✊</div>
-                <div style="margin-right: 50px;">🏃‍♂️</div>
+                <div style="margin-right: 50px;">🦾</div>
+                <div style="margin-right: 50px;">🏋️</div>
             </div>
-            <div class="barra">
-                <div id="vidafuerza"></div>
-            </div>
+            <meter id="vidafuerza" min="0" max="100" low="25" optimum="100" high="50" value="0"></meter>
             <div class="rowleft">
-                <divx id="numfuerza">0%</divx>
+                <divx id="numfuerza">0</divx>
+                <div id="hastag">%</div>
                 <div> Strength</div>
             </div>
         </div>
@@ -67,34 +64,33 @@
                 SLEEP
             </div>
             <div class="INFERIOR RIGHT">
-                <div>🛏</div>
+                <div>💤</div>
                 <div style="margin-left: 50px;">🌜</div>
             </div>
-            <div class="barra barrasleep">
-                <div id="vidasleep"></div>
-            </div>
+            <meter id="vidasleep" min="0" max="100" low="25" optimum="100" high="50" value="49"></meter>
             <div class="rowright">
-                <div id="numsleep">49%</div>
+                <div id="numsleep">49</div>
+                <div id="hastag">%</div>
                 <div>Energy</div>
             </div>
         </div>
-        
+
         <div class="TAMAGOCHI">
             <div id="TAMAGOCHITAG">
                 DONKO
             </div>
             <div>
-                <img class="imgochi" src="gorilochi.png" alt="">
+                <img class="imgochi" src="gorilochi.png" id="gorilochi" alt="">
             </div>
             <div class="HEARTS">
-                ♥♥♥♥♥
+                🖤🖤🖤🖤
             </div>
-            <div class="barrahappiness">
-                <div id="vidahappiness"></div>
-            </div>
+            <meter id="vidahappiness" low="25" optimum="100" high="50" min="0" max="100" value="100"></meter>
+
             <div class="row">
                 <div>Happiness</div>
-                <div id="numhappiness">30%</div>
+                <div id="numhappiness">100</div>
+                <div id="hastag">%</div>
             </div>
         </div>
 
