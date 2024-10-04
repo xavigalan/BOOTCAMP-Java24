@@ -12,13 +12,16 @@
     <div style="display: flex; flex-direction: row;">
         <div class="EAT">
             <div class="SUPERIOR">
-                <button style="width: 50px; margin-right: 50px; background-color: transparent; border: 0px;">🍌</button>
-                <div style="margin-right: 50px;">🍌</div>
-                <div>🍌</div>
+                <button class="comer"
+                    style="font-size: 40px; margin-right: 50px; background-color: transparent; border: 0px; cursor: pointer;">🍌</button>
+                <button class="comer"
+                    style="font-size: 40px; margin-right: 50px; background-color: transparent; border: 0px; cursor: pointer;">🍌</button>
+                <button class="comer"
+                    style="font-size: 40px; background-color: transparent; border: 0px;cursor: pointer;">🍌</button>
             </div>
-            <meter id="vidacomida" min="0" max="100" low="25" optimum="100" high="50" value="49"></meter>
+            <meter id="vidacomida" min="0" max="100" low="25" optimum="100" high="50" value="100"></meter>
             <div class="rowleft">
-                <div id="numcomida">24</div>
+                <div id="numcomida">100</div>
                 <div id="hastag">%</div>
                 <div>Full</div>
             </div>
@@ -28,13 +31,16 @@
         </div>
         <div class="PLAY">
             <div class="SUPERIOR RIGHT">
-                <div style="margin-right: 50px;">🥊</div>
-                <div style="margin-right: 50px;">🏉</div>
-                <div>🎮</div>
+                <button class="jugar"
+                    style="font-size: 40px;background-color: transparent; border: 0px; margin-right: 50px;cursor: pointer;">🥊</button>
+                <button class="jugar"
+                    style="font-size: 40px;background-color: transparent; border: 0px; margin-right: 50px;cursor: pointer;">🏉</button>
+                <button class="jugar"
+                    style="cursor: pointer; font-size: 40px;background-color: transparent; border: 0px;">🎮</button>
             </div>
-            <meter id="vidaplay" class="RIGHT" min="0" max="100" low="25" optimum="100" high="50" value="49"></meter>
+            <meter id="vidaplay" class="RIGHT" min="0" max="100" low="25" optimum="100" high="50" value="100"></meter>
             <div class="rowright">
-                <div id="numplay" class="LEFT">49</div>
+                <div id="numplay" class="LEFT">100</div>
                 <div id="hastag">%</div>
                 <div>Fun</div>
             </div>
@@ -49,12 +55,14 @@
                 FIGHT
             </div>
             <div class="INFERIOR">
-                <div style="margin-right: 50px;">🦾</div>
-                <div style="margin-right: 50px;">🏋️</div>
+                <button class="fuerza"
+                    style="cursor: pointer; font-size: 40px;background-color: transparent; border: 0px; margin-right: 50px;">🦾</button>
+                <button class="fuerza"
+                    style="cursor: pointer; font-size: 40px;background-color: transparent; border: 0px; margin-right: 50px;">🏋️</button>
             </div>
-            <meter id="vidafuerza" min="0" max="100" low="25" optimum="100" high="50" value="0"></meter>
+            <meter id="vidafuerza" min="0" max="100" low="25" optimum="100" high="50" value="100"></meter>
             <div class="rowleft">
-                <divx id="numfuerza">0</divx>
+                <div id="numfuerza">100</div>
                 <div id="hastag">%</div>
                 <div> Strength</div>
             </div>
@@ -64,12 +72,14 @@
                 SLEEP
             </div>
             <div class="INFERIOR RIGHT">
-                <div>💤</div>
-                <div style="margin-left: 50px;">🌜</div>
+                <button class="dormir"
+                    style="cursor: pointer; font-size: 40px;background-color: transparent; border: 0px;">💤</button>
+                <button class="dormir"
+                    style="cursor: pointer; font-size: 40px;background-color: transparent; border: 0px; margin-left: 50px;">🌜</button>
             </div>
-            <meter id="vidasleep" min="0" max="100" low="25" optimum="100" high="50" value="49"></meter>
+            <meter id="vidasleep" min="0" max="100" low="25" optimum="100" high="50" value="100"></meter>
             <div class="rowright">
-                <div id="numsleep">49</div>
+                <div id="numsleep">100</div>
                 <div id="hastag">%</div>
                 <div>Energy</div>
             </div>
@@ -96,7 +106,7 @@
 
     </div>
     </div>
-    <script src=""></script>
+    <script src="./javascript/main.js"></script>
 </body>
 
 </html>
