@@ -4,7 +4,6 @@
 //     background-color: red;
 // }
 
-// PRIMERA PARTE
 // @include media-breakpoint-up(sm) {
 //     .container-fluid {
 //         background-color: orange;
@@ -16,12 +15,28 @@
 //     }
 // }
 
-@include media-breakpoint-between(xs,sm,md) {
+// scss-docs-start grid-breakpoints
+$grid-breakpoints: (
+    xs: 0,
+    sm: 250px,
+    md: 500px,
+    lg: 750px,
+    xl: 1000px,
+    xxl: 1250px) !default;
+
+@include media-breakpoint-between(xs, sm) {
     .container-fluid {
         background-color: violet;
     }
 }
-@include media-breakpoint-between(lg,xl,xxl) {
+
+@include media-breakpoint-between(sm, md) {
+    .container-fluid {
+        background-color: violet;
+    }
+}
+
+@include media-breakpoint-between(md, container-fluid) {
     .container-fluid {
         background-color: green;
     }
