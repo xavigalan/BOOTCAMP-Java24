@@ -110,6 +110,7 @@ input[type="range"]::-webkit-slider-thumb {
 }
 
 .numero {
+    cursor: pointer;
     background-color: white;
     font-size: 40px;
     color: #343333;
@@ -127,6 +128,7 @@ input[type="range"]::-webkit-slider-thumb {
 }
 
 .del {
+    cursor: pointer;
     font-size: 40px;
     background-color: rgb(46, 70, 101);
     border-radius: 10px;
@@ -144,6 +146,7 @@ input[type="range"]::-webkit-slider-thumb {
 }
 
 .reset {
+    cursor: pointer;
     font-size: 40px;
     background-color: rgb(46, 70, 101);
     border-radius: 10px;
@@ -161,6 +164,7 @@ input[type="range"]::-webkit-slider-thumb {
 }
 
 .resultadoinf {
+    cursor: pointer;
     font-size: 40px;
     background-color: red;
     border-radius: 10px;
