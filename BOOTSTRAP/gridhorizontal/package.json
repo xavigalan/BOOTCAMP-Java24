@@ -1,5 +1,5 @@
 {
-  "name": "bootstrap",
+  "name": "gridhorizontal",
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
@@ -8,9 +8,5 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "dependencies": {
-    "bootstrap": "^5.3.3"
-  },
-  "devDependencies": {},
   "description": ""
 }
