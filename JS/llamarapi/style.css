@@ -27,7 +27,7 @@ body {
 
 .box-ricky {
     margin-top: 50px;
-    background-color:cornflowerblue;
+    background-color: cornflowerblue;
     padding: 20px;
     width: 30vw;
     border: dashed 1px black;
@@ -42,8 +42,8 @@ body {
 
 img {
     border-radius: 50%;
-    width: 15vw;
-    height: 15vw;
+    width: 11vw;
+    height: 11vw;
     object-fit: cover;
     border: 2px solid black;
 }
@@ -71,4 +71,37 @@ button {
     font-weight: bold;
     border: dotted 2px black;
     cursor: pointer;
+}
+
+.box-ricky {
+    background-color: #f0f8ff;
+    border: 2px solid #1e90ff;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 20px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    max-width: 400px;
+    transition: transform 0.3s;
+}
+
+.box-ricky:hover {
+    transform: scale(1.05);
+}
+
+.ricky-image {
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.rickydatos {
+    font-family: 'Arial', sans-serif;
+    font-size: 16px;
+    color: #333;
+    margin: 5px 0;
+    padding: 5px;
+    background-color: #ffffff;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }

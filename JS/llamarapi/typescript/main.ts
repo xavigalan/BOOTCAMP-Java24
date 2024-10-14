@@ -41,16 +41,24 @@ async function fetchRicky() {
         const nameElement = document.getElementById('name') as HTMLDivElement;
         const statusElement = document.getElementById('status') as HTMLDivElement;
         const speciesElement = document.getElementById('species') as HTMLDivElement;
-        const typeElement = document.getElementById('species') as HTMLDivElement;
+        const typeElement = document.getElementById('type') as HTMLDivElement;
+        const genderElement = document.getElementById('gender') as HTMLDivElement;
+        const originElement = document.getElementById('origin') as HTMLDivElement;
 
-        if (nameElement && statusElement && speciesElement) {
+        if (nameElement && statusElement && speciesElement && typeElement && genderElement && originElement) {
             nameElement.innerText = data.name;
             statusElement.innerHTML = data.status;
             speciesElement.innerHTML = data.species;
-
+            typeElement.innerHTML = data.type;
+            genderElement.innerHTML = data.gender;
+            originElement.innerHTML = data.origin.name;
         }
     } catch (error) {
-
+        console.log("Error:", error);
     }
 
 }
+document.addEventListener('DOMContentLoaded', () => {
+    fetchRicky();
+
+});

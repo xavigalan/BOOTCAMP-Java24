@@ -50,14 +50,23 @@ function fetchRicky() {
             const nameElement = document.getElementById('name');
             const statusElement = document.getElementById('status');
             const speciesElement = document.getElementById('species');
-            const typeElement = document.getElementById('species');
-            if (nameElement && statusElement && speciesElement) {
+            const typeElement = document.getElementById('type');
+            const genderElement = document.getElementById('gender');
+            const originElement = document.getElementById('origin');
+            if (nameElement && statusElement && speciesElement && typeElement && genderElement && originElement) {
                 nameElement.innerText = data.name;
                 statusElement.innerHTML = data.status;
                 speciesElement.innerHTML = data.species;
+                typeElement.innerHTML = data.type;
+                genderElement.innerHTML = data.gender;
+                originElement.innerHTML = data.origin.name;
             }
         }
         catch (error) {
+            console.log("Error:", error);
         }
     });
 }
+document.addEventListener('DOMContentLoaded', () => {
+    fetchRicky();
+});
