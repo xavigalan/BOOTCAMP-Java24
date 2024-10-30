@@ -9,13 +9,11 @@ public class AritmeticosIncrementales {
 		System.out.println(++numero);
 	}
 	public static void decrementar() {
-		System.out.println(decremento--);
+		System.out.println(--decremento);
 	}
 	
 	public static void main(String[] args) {
 		incrementar();
-		decrementar();
-
 		decrementar();
 	}
 }
