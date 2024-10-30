@@ -14,7 +14,7 @@ public class OperadoresLogicos2 {
     	
     	int random = (int) (Math.random() * 2);  // Genera 0 o 1
     	System.out.println("Tu número random es: " + random);
-    	String color = (random <= 0) ? "blanco" : "negro";
+    	String color = (random == 0) ? "blanco" : "negro";
 
     	System.out.println("El color es " + color + ".");
 
