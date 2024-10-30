@@ -6,6 +6,7 @@ public class Aritmeticos {
         System.out.println("Multiplicar 5 x 5 = "+ multiplicar()); 
         System.out.println("Dividr con numero entero 25 / 7 = "+ dividirentero()); 
         System.out.println("Dividr con numero real 25 / 7 = "+ dividirreal()); 
+        System.out.println("Dividr con numero 25 / 4 Y nos devolverá el resto = "+ dividirresto()); 
         }
 
     public static int restale() {
@@ -44,5 +45,11 @@ public class Aritmeticos {
     	float num2 = 7;
     	float dividirreal = num1/num2;
     	return dividirreal;
+    }
+    public static int dividirresto() {
+    	int num1 = 25;
+    	int num2 = 4;
+    	int dividirresto = num1%num2;
+    	return dividirresto;
     }
 }
