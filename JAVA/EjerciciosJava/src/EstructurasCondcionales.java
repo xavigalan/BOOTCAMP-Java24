@@ -108,7 +108,7 @@ public class EstructurasCondcionales {
         }
 
         // Parte 4 Transforma if-elseif-else a opternario
-        System.out.println("Dame un valor númerico");
+        System.out.println("Dame un valor númerico y te diré si es positivo o negativo");
         double number = sc.nextDouble();
         
         String transformar = ((number > 0) ? "Es positivo!" : (number < 0 ) ? "Es negativo" : "Es cero!!");
