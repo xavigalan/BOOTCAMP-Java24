@@ -40,9 +40,9 @@ public class EstructurasRepetitivas {
         
 		for (char letra = 'A'; letra <= 'Z'; letra++) {
             abecedario.add(String.valueOf(letra));
-            System.out.println(letra);
 
             }
+		
         for (int i = 0; i < abecedario.size(); i++) {
         	String letra = abecedario.get(i);
         	if (!letra.equals("A") && !letra.equals("Y")) {
