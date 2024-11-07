@@ -69,13 +69,14 @@ public class EjBanderasANSI {
         		int alturaPunta = 10;
                 int baseAncho = 3;
                 int alturaBase = 4;
+                String[] coloresFondo = {RED_BG, GREEN_BG, YELLOW_BG, BLUE_BG, PURPLE_BG, WHITE_BG};
 
                 for (int i = 1; i <= alturaPunta; i++) {
                     for (int j = i; j < alturaPunta; j++) {
                         System.out.print(RESET + " ");
                     }
                     for (int k = 1; k <= (2 * i - 1); k++) {  // Cambié a (2 * i - 1) para mantener la forma
-                        System.out.print(GREEN_BG + "*");
+                        System.out.print(GREEN_BG + "*" );
                     }
                     System.out.println();
                 }
