@@ -47,7 +47,14 @@ public class ConversionDatos {
 		byte cien = 100;
 		cien = (byte) (cien * 2);
 		System.out.println("Resultado de 100 x 2: " + cien);
-	
+		// 3. Declara un tipo de dato byte e inicializa la variable a 100.
+		// Modifica el valor de la variable multiplicando su valor x 2 ¿Qué está
+		// pasando? ¿Cómo lo arreglarías?
+		
+		// Lo que ocurre es un desbordamiento, entonces lo que hace es
+		// poner el valor en negativo devolviendo el valor sobrante, 
+		// para evitar esto tenemos que llegar al límite del tipo byte que es
+		// 127 o cambiar el tipo de dato.
 
 	
 

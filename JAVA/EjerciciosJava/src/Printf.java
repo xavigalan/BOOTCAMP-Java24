@@ -1,6 +1,7 @@
-public class Main {
+
+public class Printf {
+
 	public static void main(String[] args) {
-		System.out.println("Hola desde mi primer programa Java (CMD)");
 		// EJ1
 		System.out.println("\nEJ1");
 		System.out.printf("%s\t\t%s\t%s\n", "NOMBRE", "APELLIDO1", "APELLIDO2");
