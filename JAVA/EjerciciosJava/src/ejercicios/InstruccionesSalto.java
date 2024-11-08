@@ -1,3 +1,5 @@
+
+package ejercicios;
 public class InstruccionesSalto {
 
 	public static void main(String[] args) {

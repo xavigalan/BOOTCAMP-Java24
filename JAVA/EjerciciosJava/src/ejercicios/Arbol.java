@@ -1,3 +1,5 @@
+
+package ejercicios;
 public class Arbol {
     public static void main(String[] args) {
         int alturaPunta = 10;

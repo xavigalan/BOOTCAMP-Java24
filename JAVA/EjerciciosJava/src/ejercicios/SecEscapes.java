@@ -1,4 +1,5 @@
 
+package ejercicios;
 public class SecEscapes {
 
 	public static void main(String[] args) {

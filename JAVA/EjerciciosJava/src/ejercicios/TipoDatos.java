@@ -1,4 +1,5 @@
 
+package ejercicios;
 public class TipoDatos {
 
 	public static void main(String[] args) {

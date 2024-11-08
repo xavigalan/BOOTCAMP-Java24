@@ -1,3 +1,5 @@
+
+package ejercicios;
 public class Aritmeticos {
     public static void main(String[] args) {
         System.out.println("Restar 10 - 5 = "+ restale()); 

@@ -1,4 +1,5 @@
 
+package ejercicios;
 public class OperadoresRelacion {
 
 	public static void main(String[] args) {

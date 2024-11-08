@@ -1,4 +1,5 @@
 
+package ejercicios;
 public class EjFunciones {
 
 	// PARTE 1

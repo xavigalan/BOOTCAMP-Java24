@@ -1,4 +1,5 @@
 
+package ejercicios;
 public class AritmeticosIncrementales {
 
 	static int numero = 0;

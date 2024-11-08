@@ -1,4 +1,5 @@
 
+package ejercicios;
 public class AritmeticosCombinados {
 
 	public static void main(String[] args) {
