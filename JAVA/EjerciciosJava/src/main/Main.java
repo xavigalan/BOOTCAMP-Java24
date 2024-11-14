@@ -44,7 +44,7 @@ public class Main {
         System.out.println("Fecha de expiración: " + tarjeta1.getFecha());
         System.out.println("Titular: " + tarjeta1.getTitular());
         System.out.println("¿Está activa?: " + tarjeta1.isActiva());
-        System.out.println("Intento realizar un pago!!");
+        System.out.println("Intenta realizar un pago!!");
         tarjeta1.pagar(150.50);  // Realiza un pago de 150.50€
 
 
