@@ -1,0 +1,51 @@
+2024-11-18T10:05:11.668+01:00  INFO 11600 --- [my-first-project] [restartedMain] com.login.MyFirstProjectApplication      : Starting MyFirstProjectApplication using Java 23 with PID 11600 (C:\Users\FundacionEsplai\Desktop\BOOTCAMP\BOOTCAMP-Java24\JAVA\my-first-project\target\classes started by FundacionEsplai in C:\Users\FundacionEsplai\Desktop\BOOTCAMP\BOOTCAMP-Java24\JAVA\my-first-project)
+2024-11-18T10:05:11.671+01:00  INFO 11600 --- [my-first-project] [restartedMain] com.login.MyFirstProjectApplication      : No active profile set, falling back to 1 default profile: "default"
+2024-11-18T10:05:11.764+01:00  INFO 11600 --- [my-first-project] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-11-18T10:05:11.765+01:00  INFO 11600 --- [my-first-project] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-11-18T10:05:13.224+01:00  INFO 11600 --- [my-first-project] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-11-18T10:05:13.250+01:00  INFO 11600 --- [my-first-project] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-11-18T10:05:13.250+01:00  INFO 11600 --- [my-first-project] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.31]
+2024-11-18T10:05:13.322+01:00  INFO 11600 --- [my-first-project] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-11-18T10:05:13.323+01:00  INFO 11600 --- [my-first-project] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1557 ms
+2024-11-18T10:05:13.874+01:00  INFO 11600 --- [my-first-project] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-11-18T10:05:13.923+01:00  INFO 11600 --- [my-first-project] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2024-11-18T10:05:13.933+01:00  INFO 11600 --- [my-first-project] [restartedMain] com.login.MyFirstProjectApplication      : Started MyFirstProjectApplication in 2.757 seconds (process running for 3.817)
+2024-11-18T10:05:13.938+01:00  INFO 11600 --- [my-first-project] [restartedMain] com.login.MyFirstProjectApplication      : An INFO Message
+2024-11-18T10:05:13.938+01:00  WARN 11600 --- [my-first-project] [restartedMain] com.login.MyFirstProjectApplication      : A WARN Message
+2024-11-18T10:05:13.938+01:00 ERROR 11600 --- [my-first-project] [restartedMain] com.login.MyFirstProjectApplication      : An ERROR Message
+2024-11-18T10:05:13.938+01:00 ERROR 11600 --- [my-first-project] [restartedMain] com.login.MyFirstProjectApplication      : a FATAL Message
+2024-11-18T10:05:29.791+01:00  INFO 11600 --- [my-first-project] [RMI TCP Connection(2)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2024-11-18T10:05:32.118+01:00  INFO 3296 --- [my-first-project] [restartedMain] com.login.MyFirstProjectApplication      : Starting MyFirstProjectApplication using Java 23 with PID 3296 (C:\Users\FundacionEsplai\Desktop\BOOTCAMP\BOOTCAMP-Java24\JAVA\my-first-project\target\classes started by FundacionEsplai in C:\Users\FundacionEsplai\Desktop\BOOTCAMP\BOOTCAMP-Java24\JAVA\my-first-project)
+2024-11-18T10:05:32.122+01:00  INFO 3296 --- [my-first-project] [restartedMain] com.login.MyFirstProjectApplication      : No active profile set, falling back to 1 default profile: "default"
+2024-11-18T10:05:32.218+01:00  INFO 3296 --- [my-first-project] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-11-18T10:05:32.218+01:00  INFO 3296 --- [my-first-project] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-11-18T10:05:33.608+01:00  INFO 3296 --- [my-first-project] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-11-18T10:05:33.630+01:00  INFO 3296 --- [my-first-project] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-11-18T10:05:33.630+01:00  INFO 3296 --- [my-first-project] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.31]
+2024-11-18T10:05:33.704+01:00  INFO 3296 --- [my-first-project] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-11-18T10:05:33.705+01:00  INFO 3296 --- [my-first-project] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1486 ms
+2024-11-18T10:05:34.176+01:00  INFO 3296 --- [my-first-project] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-11-18T10:05:34.224+01:00  INFO 3296 --- [my-first-project] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2024-11-18T10:05:34.234+01:00  INFO 3296 --- [my-first-project] [restartedMain] com.login.MyFirstProjectApplication      : Started MyFirstProjectApplication in 2.582 seconds (process running for 3.421)
+2024-11-18T10:05:34.238+01:00  INFO 3296 --- [my-first-project] [restartedMain] com.login.MyFirstProjectApplication      : An INFO Message
+2024-11-18T10:05:34.238+01:00  WARN 3296 --- [my-first-project] [restartedMain] com.login.MyFirstProjectApplication      : A WARN Message
+2024-11-18T10:05:34.238+01:00 ERROR 3296 --- [my-first-project] [restartedMain] com.login.MyFirstProjectApplication      : An ERROR Message
+2024-11-18T10:05:34.238+01:00 ERROR 3296 --- [my-first-project] [restartedMain] com.login.MyFirstProjectApplication      : a FATAL Message
+2024-11-18T10:05:39.818+01:00  INFO 3296 --- [my-first-project] [RMI TCP Connection(2)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2024-11-18T10:05:42.189+01:00  INFO 11656 --- [my-first-project] [restartedMain] com.login.MyFirstProjectApplication      : Starting MyFirstProjectApplication using Java 23 with PID 11656 (C:\Users\FundacionEsplai\Desktop\BOOTCAMP\BOOTCAMP-Java24\JAVA\my-first-project\target\classes started by FundacionEsplai in C:\Users\FundacionEsplai\Desktop\BOOTCAMP\BOOTCAMP-Java24\JAVA\my-first-project)
+2024-11-18T10:05:42.190+01:00  INFO 11656 --- [my-first-project] [restartedMain] com.login.MyFirstProjectApplication      : No active profile set, falling back to 1 default profile: "default"
+2024-11-18T10:05:42.264+01:00  INFO 11656 --- [my-first-project] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-11-18T10:05:42.264+01:00  INFO 11656 --- [my-first-project] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-11-18T10:05:43.224+01:00  INFO 11656 --- [my-first-project] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-11-18T10:05:43.243+01:00  INFO 11656 --- [my-first-project] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-11-18T10:05:43.243+01:00  INFO 11656 --- [my-first-project] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.31]
+2024-11-18T10:05:43.301+01:00  INFO 11656 --- [my-first-project] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-11-18T10:05:43.302+01:00  INFO 11656 --- [my-first-project] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1036 ms
+2024-11-18T10:05:43.679+01:00  INFO 11656 --- [my-first-project] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-11-18T10:05:43.720+01:00  INFO 11656 --- [my-first-project] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2024-11-18T10:05:43.729+01:00  INFO 11656 --- [my-first-project] [restartedMain] com.login.MyFirstProjectApplication      : Started MyFirstProjectApplication in 2.043 seconds (process running for 2.953)
+2024-11-18T10:05:43.732+01:00  INFO 11656 --- [my-first-project] [restartedMain] com.login.MyFirstProjectApplication      : An INFO Message
+2024-11-18T10:05:43.733+01:00  WARN 11656 --- [my-first-project] [restartedMain] com.login.MyFirstProjectApplication      : A WARN Message
+2024-11-18T10:05:43.733+01:00 ERROR 11656 --- [my-first-project] [restartedMain] com.login.MyFirstProjectApplication      : An ERROR Message
+2024-11-18T10:05:43.733+01:00 ERROR 11656 --- [my-first-project] [restartedMain] com.login.MyFirstProjectApplication      : a FATAL Message
+2024-11-18T10:06:39.148+01:00  INFO 11656 --- [my-first-project] [RMI TCP Connection(4)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.

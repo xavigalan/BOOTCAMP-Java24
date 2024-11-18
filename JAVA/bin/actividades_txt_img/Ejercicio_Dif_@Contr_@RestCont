@@ -1,0 +1,9 @@
+• Ejercicio 1: ¿Qué diferencia hay entre las anotaciones @Controller y @Rest Controller?
+Si añadimos RestController en la parte superior afectará a todos los endpoints que añadamos
+a nuestra classe, en cambio con Controller debemos añadir @ResponseBody sobre el endpoint que queramos
+que nos devuelva formato JSON. 
+¿Puedo devolver un JSONusando RestController? ¿Y usando un @Controller? Desarrolla un
+ejemplo con ambas.
+• Ejercicio 2 Crea un Controller y 3 páginas webs y haz 3 endpoints. Cada end point nos
+redireccionará hacía una de las tres página web. Por ejemplo el end point index irá hacía
+index.html, el end point de contacto irá hacía contacto, etc.
