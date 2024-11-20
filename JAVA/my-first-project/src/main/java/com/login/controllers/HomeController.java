@@ -28,7 +28,7 @@ public class HomeController {
 	@RequestMapping("/hacercafe")
 	@ResponseStatus(HttpStatus.OK)
 	public String ok() {
-	    return "Petición satisfactoria, Status Code: " + HttpStatus.OK.value();
+		return "Petición satisfactoria, Status Code: " + HttpStatus.OK.value();
 	}
 
 	// EJERICIO 2
@@ -37,24 +37,29 @@ public class HomeController {
 	public String tea() {
 		return "Soy una tetera!" + HttpStatus.I_AM_A_TEAPOT;
 	}
-	
-	@RequestMapping("/created")
-	@ResponseStatus(HttpStatus.CREATED) 
-	public String created() {
-	    HttpStatus badrequest = HttpStatus.BAD_REQUEST;
-	    HttpStatus accepted = HttpStatus.ACCEPTED;
 
-	    String badMessage = badrequest.getReasonPhrase();
-	    String accMessage = accepted.getReasonPhrase();
-
-	    System.out.println("Bad Request: " + badMessage);
-	    System.out.println("Accepted: " + accMessage);
-
-	    return "Status Code: " + badrequest.value() + ", Message: " + badMessage 
-	           + "\nStatus Code: " + accepted.value() + ", Message: " + accMessage;
+	// EJERICIO 3
+	@RequestMapping("/notfound")
+	@ResponseStatus(HttpStatus.NOT_FOUND)
+	public String notfound() {
+		return "No encontrado!" + HttpStatus.NOT_FOUND;
 	}
 
+	@RequestMapping("/created")
+	@ResponseStatus(HttpStatus.CREATED)
+	public String created() {
+		HttpStatus badrequest = HttpStatus.BAD_REQUEST;
+		HttpStatus accepted = HttpStatus.ACCEPTED;
 
+		String badMessage = badrequest.getReasonPhrase();
+		String accMessage = accepted.getReasonPhrase();
+
+		System.out.println("Bad Request: " + badMessage);
+		System.out.println("Accepted: " + accMessage);
+
+		return "Status Code: " + badrequest.value() + ", Message: " + badMessage + "\nStatus Code: " + accepted.value()
+				+ ", Message: " + accMessage;
+	}
 
 	@RequestMapping("/texttojson")
 	public TextToJSON textojson() {
