@@ -7,6 +7,7 @@ import org.springframework.http.HttpStatus;
 import org.springframework.http.MediaType;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.ResponseStatus;
 import org.springframework.web.bind.annotation.RestController;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
@@ -17,8 +18,43 @@ import com.login.pojos.TextToJSON;
 public class HomeController {
 	@RequestMapping("/")
 	public String defect() {
-		return "defecto.html";
+		HttpStatus status = HttpStatus.BAD_REQUEST;
+		String statusMessage = status.getReasonPhrase();
+		System.out.println(status);
+		return "Status Code: " + status.value() + ", Message: " + statusMessage;
 	}
+
+	// EJERICIO 1
+	@RequestMapping("/hacercafe")
+	@ResponseStatus(HttpStatus.OK)
+	public String ok() {
+	    return "Petición satisfactoria, Status Code: " + HttpStatus.OK.value();
+	}
+
+	// EJERICIO 2
+	@RequestMapping("/hacerte")
+	@ResponseStatus(HttpStatus.I_AM_A_TEAPOT)
+	public String tea() {
+		return "Soy una tetera!" + HttpStatus.I_AM_A_TEAPOT;
+	}
+	
+	@RequestMapping("/created")
+	@ResponseStatus(HttpStatus.CREATED) 
+	public String created() {
+	    HttpStatus badrequest = HttpStatus.BAD_REQUEST;
+	    HttpStatus accepted = HttpStatus.ACCEPTED;
+
+	    String badMessage = badrequest.getReasonPhrase();
+	    String accMessage = accepted.getReasonPhrase();
+
+	    System.out.println("Bad Request: " + badMessage);
+	    System.out.println("Accepted: " + accMessage);
+
+	    return "Status Code: " + badrequest.value() + ", Message: " + badMessage 
+	           + "\nStatus Code: " + accepted.value() + ", Message: " + accMessage;
+	}
+
+
 
 	@RequestMapping("/texttojson")
 	public TextToJSON textojson() {
@@ -50,25 +86,24 @@ public class HomeController {
 
 	@RequestMapping("/randomstatus")
 	public ResponseEntity<String> getRandomStatus() {
-	    Random random = new Random();
-	    int result = random.nextInt(2); 
-	    
-	    HttpStatus notfound = HttpStatus.NOT_FOUND;
-	    HttpStatus teapot = HttpStatus.ACCEPTED;
+		Random random = new Random();
+		int result = random.nextInt(2);
 
-	    if (result == 0) {
-	        String statusMessage = notfound.getReasonPhrase();  
-	        return new ResponseEntity<>("Operación exitosa, status: " + HttpStatus.OK.getReasonPhrase(), HttpStatus.OK);  // Código 200
-	    } else {
-	    	if (random.nextBoolean()) {
-	            String statusMessage = notfound.getReasonPhrase(); 
-	            return new ResponseEntity<>("Error: no encontrado, status: " + statusMessage, notfound);  // Código 404
-	        } else {
-	            String statusMessage = teapot.getReasonPhrase();
-	            return new ResponseEntity<>("Error: soy una tetera, status: " + statusMessage, teapot); // Código 418
-	        }
-	    }
+		HttpStatus notfound = HttpStatus.NOT_FOUND;
+		HttpStatus teapot = HttpStatus.I_AM_A_TEAPOT;
+
+		if (result == 0) {
+			return new ResponseEntity<>("Operación exitosa, status: " + HttpStatus.OK.getReasonPhrase(), HttpStatus.OK); // Código
+																															// 200
+		} else {
+			if (random.nextBoolean()) {
+				String statusMessage = notfound.getReasonPhrase();
+				return new ResponseEntity<>("Error: no encontrado, status: " + statusMessage, notfound); // Código 404
+			} else {
+				String statusMessage = teapot.getReasonPhrase();
+				return new ResponseEntity<>("Error: soy una tetera, status: " + statusMessage, teapot); // Código 418
+			}
+		}
 	}
-
 
 }
