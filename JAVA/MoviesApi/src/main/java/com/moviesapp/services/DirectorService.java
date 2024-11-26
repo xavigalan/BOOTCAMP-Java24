@@ -17,8 +17,12 @@ public class DirectorService {
 	public List<Director> findAllDirectors() {
 		return directorRepository.findAll();
 	}
-	
+
 	public Optional<Director> findDirectorById(Long id) {
 		return directorRepository.findById(id);
+	}
+
+	public Director addDirector(Director director) {
+		return directorRepository.save(director);
 	}
 }
